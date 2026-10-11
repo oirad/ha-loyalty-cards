@@ -23,6 +23,7 @@ describe("contrast", () => {
   const dark = new Set(["amber", "yellow", "lime", "white"]);
   test.each(PALETTE)("%s matches the design table", (name, hex) => {
     expect(textColor(hex)).toBe(dark.has(name) ? DARK_TEXT : LIGHT_TEXT);
+    expect(contrastRatio(hex, textColor(hex))).toBeGreaterThanOrEqual(4.5);
   });
   test("ratio", () => {
     expect(contrastRatio("#000000", "#ffffff")).toBeCloseTo(21);
