@@ -64,7 +64,8 @@ class LoyaltyCardsPanel extends LitElement {
     shared,
     css`
       :host {
-        height: 100%;
+        height: 100vh;
+        height: 100dvh;
         background: var(--primary-background-color);
       }
       .center {

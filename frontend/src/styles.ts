@@ -84,7 +84,8 @@ export const shared = css`
     background: var(--primary-color);
     color: var(--text-primary-color, #fff);
   }
-  .btn:disabled {
+  .btn:disabled,
+  .text-btn:disabled {
     opacity: 0.5;
     cursor: default;
   }
