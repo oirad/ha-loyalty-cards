@@ -9,6 +9,10 @@ Keep your store loyalty cards in Home Assistant and show them at the checkout fr
 - Lovelace card to put a loyalty card on any dashboard.
 - Translated into English, Italian, German, French, Spanish, Portuguese, Dutch and Polish.
 
+| Cards | Card details | Add a card | Dashboard card |
+| :---: | :---: | :---: | :---: |
+| <img src="docs/screenshots/list.png" alt="List of loyalty cards with search" width="200"> | <img src="docs/screenshots/detail.png" alt="Card details with barcode" width="200"> | <img src="docs/screenshots/editor.png" alt="New card editor with a scanned barcode" width="200"> | <img src="docs/screenshots/dashboard.png" alt="Loyalty cards on a dashboard" width="200"> |
+
 Everything stays on your Home Assistant: photos are decoded in the browser and never uploaded, cards are stored in `.storage/loyalty_cards` and included in backups. No entities, sensors or services are created.
 
 ## Installation
