@@ -1,0 +1,14 @@
+{
+  "title": "Loyalty Cards",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Loyalty Cards",
+        "description": "Add Loyalty Cards to the sidebar to keep your store loyalty cards in Home Assistant."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Loyalty Cards is already set up."
+    }
+  }
+}

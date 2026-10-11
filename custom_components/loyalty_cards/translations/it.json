@@ -1,0 +1,14 @@
+{
+  "title": "Carte fedeltà",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Carte fedeltà",
+        "description": "Aggiungi Carte fedeltà alla barra laterale per tenere le tessere dei negozi in Home Assistant."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Carte fedeltà è già configurata."
+    }
+  }
+}

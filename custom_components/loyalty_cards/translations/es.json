@@ -1,0 +1,14 @@
+{
+  "title": "Tarjetas de fidelidad",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Tarjetas de fidelidad",
+        "description": "Añade Tarjetas de fidelidad a la barra lateral para guardar tus tarjetas de tiendas en Home Assistant."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Tarjetas de fidelidad ya está configurado."
+    }
+  }
+}

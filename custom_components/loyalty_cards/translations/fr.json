@@ -1,0 +1,14 @@
+{
+  "title": "Cartes de fidélité",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Cartes de fidélité",
+        "description": "Ajoutez Cartes de fidélité à la barre latérale pour garder vos cartes de magasin dans Home Assistant."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Cartes de fidélité est déjà configuré."
+    }
+  }
+}

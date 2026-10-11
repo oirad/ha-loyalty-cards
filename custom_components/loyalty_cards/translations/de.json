@@ -1,0 +1,14 @@
+{
+  "title": "Kundenkarten",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Kundenkarten",
+        "description": "Füge Kundenkarten zur Seitenleiste hinzu, um deine Kundenkarten in Home Assistant zu speichern."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Kundenkarten ist bereits eingerichtet."
+    }
+  }
+}

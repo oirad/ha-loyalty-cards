@@ -1,0 +1,14 @@
+{
+  "title": "Klantenkaarten",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Klantenkaarten",
+        "description": "Voeg Klantenkaarten toe aan de zijbalk om je klantenkaarten in Home Assistant te bewaren."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Klantenkaarten is al ingesteld."
+    }
+  }
+}

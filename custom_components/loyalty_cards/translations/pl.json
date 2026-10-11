@@ -1,0 +1,14 @@
+{
+  "title": "Karty lojalnościowe",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Karty lojalnościowe",
+        "description": "Dodaj Karty lojalnościowe do paska bocznego, aby przechowywać karty sklepów w Home Assistant."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Karty lojalnościowe są już skonfigurowane."
+    }
+  }
+}
