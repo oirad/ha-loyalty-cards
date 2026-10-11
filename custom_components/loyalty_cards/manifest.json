@@ -1,0 +1,14 @@
+{
+  "domain": "loyalty_cards",
+  "name": "Loyalty Cards",
+  "codeowners": ["@oirad"],
+  "config_flow": true,
+  "dependencies": ["frontend", "http", "websocket_api", "panel_custom"],
+  "documentation": "https://github.com/oirad/ha-loyalty-cards",
+  "integration_type": "service",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/oirad/ha-loyalty-cards/issues",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "0.1.0"
+}

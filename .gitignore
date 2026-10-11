@@ -1,0 +1,6 @@
+ha-loyalty-cards-kit/
+.DS_Store
+node_modules/
+.venv/
+__pycache__/
+.pytest_cache/
