@@ -23,6 +23,10 @@ export function fire(node: EventTarget, type: string, detail: unknown = {}): voi
 /** HA shows this as a toast. */
 export const toast = (node: EventTarget, message: string) => fire(node, "hass-notification", { message });
 
+// HA swaps in a scoped custom element registry while booting, and an extra module can run
+// before that: elements defined earlier are invisible to Lovelace. Define once HA is up.
+const haReady = customElements.whenDefined("home-assistant");
+
 export function define(tag: string, cls: CustomElementConstructor): void {
-  if (!customElements.get(tag)) customElements.define(tag, cls);
+  haReady.then(() => customElements.get(tag) || customElements.define(tag, cls));
 }
